@@ -4,7 +4,7 @@ This repo defines `husky_theme`, a theme for Altair charts based on the [Univers
 
 The theme was built with inspiration from Sergio Sánchez's excellent blog post: [Consistently Beautiful Visualizations with Altair Themes](https://towardsdatascience.com/consistently-beautiful-visualizations-with-altair-themes-c7f9f889602).
 
-In the `husky_theme.ipynb` notebook, I have reproduced the examples from the [Altair Example Gallery](https://altair-viz.github.io/gallery/index.html) using the Husky theme. In a few cases, I have slightly altered the code from the Altair docs. These are noted along with the example.
+If you use the theme, [I'd love to hear about it](deppen.8@gmail.com).
 
 ## Usage
 
@@ -30,3 +30,25 @@ In the `husky_theme.ipynb` notebook, I have reproduced the examples from the [Al
 ```python
 %run husky_theme.py
 ```
+
+## Examples
+
+Below are a few examples using the `husky_theme` to reproduce examples from the [Altair Example Gallery](https://altair-viz.github.io/gallery/index.html).
+
+(The `husky_theme.ipynb` notebook contains a more complete series of examples. In a few cases, I have slightly altered the code from the Altair docs. These are noted along with the example.)
+
+![simple_scatter](images/simple_scatter.png)
+
+![simple_bar](images/simple_bar.png)
+
+![simple_histogram](images/simple_histogram.png)
+
+![simple_stacked_area](images/simple_stacked_area.png)
+
+![multi_line](images/multi_line.png)
+
+![candlestick](images/candlestick.png)
+
+## Contributing
+
+I welcome contributions/improvements to the theme. Feel free to submit a PR.
