@@ -35,7 +35,9 @@ If you use the theme, [I'd love to hear about it](deppen.8@gmail.com).
 
 Below are a few examples using the `husky_theme` to reproduce examples from the [Altair Example Gallery](https://altair-viz.github.io/gallery/index.html).
 
-(The `husky_theme.ipynb` notebook contains a more complete series of examples. In a few cases, I have slightly altered the code from the Altair docs. These are noted along with the example.)
+The `husky_theme.ipynb` notebook contains a more complete series of examples. In a few cases, I have slightly altered the code from the Altair docs. These are noted along with the example. You can play around with the examples yourself by launching the notebook in Binder.
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/deppen8/husky-altair-theme/master?filepath=husky_theme_examples.ipynb)
 
 ![simple_scatter](images/simple_scatter.png)
 
