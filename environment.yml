@@ -1,0 +1,7 @@
+name: altair_theme
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - altair=2.2.2=py36_1
+  - vega_datasets=0.5.0=py_0
