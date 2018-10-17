@@ -1,20 +1,23 @@
 # `husky_theme` for Altair
 
-This repo defines `husky_theme`, a theme for Altair charts based on the [University of Washington branding guidelines](http://www.washington.edu/brand/graphic-elements/). That said, it is NOT an official product of the University of Washington.
+This repo defines `husky_theme`, a theme for Altair charts based on the [University of Washington branding guidelines](http://www.washington.edu/brand/graphic-elements/). That said, it is NOT an official product of the University of Washington. Check it out some examples on Binder without downloading or installing anything.
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/deppen8/husky-altair-theme/master?filepath=husky_theme_examples.ipynb)
+
+If you use the theme, [I'd love to hear about it](deppen.8@gmail.com). 
 
 The theme was built with inspiration from Sergio Sánchez's excellent blog post: [Consistently Beautiful Visualizations with Altair Themes](https://towardsdatascience.com/consistently-beautiful-visualizations-with-altair-themes-c7f9f889602).
-
-If you use the theme, [I'd love to hear about it](deppen.8@gmail.com).
 
 ## Usage
 
 1. Obviously, you will need `altair`.
+    - To run the examples notebook, you will also need `vega_datasets`, `pandas`, and `numpy`.
 2. This theme uses three fonts:
     - Encode Sans - Regular
     - Open Sans - Regular
     - Open Sans - Bold
 
-  If you don't have these installed, all three fonts are all available via Google Fonts. You can get them from within a Jupyter Notebook with:
+    If you don't have these installed, all three fonts are all available via Google Fonts. You can get them from within a Jupyter Notebook with:
 
 ```python
 %%html
